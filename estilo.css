@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.topo {
+    text-align: center;
+    padding: 100px;
+    overflow: auto;
+}
+
+.home {
+    background-image: url(topo.ja.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.masculino {
+    background-image: url(topo.5.png);
+    background-position: center;
+}
+
+.feminino {
+    /* Adicione a URL da imagem de fundo aqui */
+    background-image: url(topo.femi.png);
+    background-position: center;
+}
+
+.menu {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(red, green, blue);
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    background-color: #fbf5f5;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+/*Estilos básico para botão */
+button {
+    background-color: #242222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilo quando o mouse passa sobre o botão */
+button:hover {
+    background-color: #242222;
+}
+
+/* Estilo para o botão "Comprar" */
+.comprar-button {
+    background-color: #333334;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Estilo quando o mouse passa sobre o botão */
+.comprar-button:hover {
+    background-color: #212222;
+}
+
+/*Estilos para telas pequenas (celulares) */
+@media (max-width: 767px) {
+    /*Seus estilos aqui */
+}
